@@ -1,0 +1,110 @@
+.detail {
+  background-color: #222222;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.detail_image {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.detail_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items:center;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.detail_text h1 {
+  color: #373f51;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.detail_text h3 {
+  color: rgb(230, 169, 0);
+  font-size: 35px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.detail_desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+}
+
+.detail_text h4 {
+  color: #373f51;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.detail_text p {
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.exist_menus {
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.detail_food {
+  font-size: large;
+  padding-left: 15px;
+  border-left: ridge;
+  border-color: cornsilk;
+}
+
+.detail_drink {
+  font-size: large;
+  padding-left: 15px;
+  border-left: ridge;
+  border-color: cornsilk;
+}
+
+h2 {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.review_item {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.review_item p {
+  margin: 0.6rem;
+}
